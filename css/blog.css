@@ -1,0 +1,49 @@
+.mainBox {
+    width: 80%;
+    margin-left: 120px;
+}
+
+.topHead {
+    padding: 40px 10px;
+    background-repeat: no-repeat;
+    height: 296px;
+    overflow: hidden;
+}
+
+.topHead img{
+    width: 100%;
+    opacity: 0.3;
+}
+.leftContent {
+    position: absolute;
+    width: 800px;
+    left: 168px;
+    top: 108px;
+}
+.rightCon img{
+    position: absolute;
+    width: 174px;
+    top: 72px;
+    right: 195px;
+    opacity: 1;
+}
+
+.options {
+    padding: 10px 10px;
+    width: 100%;
+    background-color: rgb(248, 239, 239, 0.5);
+}
+.list {
+    display: grid;
+    grid-template-rows: repeat(8, 260px);
+    margin: 45px;
+}
+.left {
+    width: 20%;
+}
+.rightInfo {
+    width: 66%;
+    position: relative;
+    left: 313px;
+    top: -170px;
+}

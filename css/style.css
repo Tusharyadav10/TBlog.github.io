@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.container {
+    width: 80%;
+    margin-left: 100px;
+}
+
+
+.introBox{
+    padding: 20px;
+    height: 264px;
+    display: flex;
+    width: 100%;
+
+}
+.introBox .left {
+    width: 20%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.introBox .right{
+    float: right;
+}
+.introBox .right img {
+    width: 350px;
+}
+
+.mainBody {
+    margin: 0;
+    /* background: yellow; */
+}
+.projects {
+    /* background: cyan; */
+    height: 500px;
+    margin-bottom: 8px;
+    padding-left: 15px;
+}
+.projects h1, h3 {
+    font-family: "Roboto", sans-serif;
+}
+.list {
+    display: grid;
+    grid-template-rows: repeat(2,195px);
+    grid-template-columns: repeat(3, 24vw);
+
+}
+.item1 img{
+    width: 146px;
+    margin: 10px;
+    border-radius: 74px;
+}
+
+.experience {
+    /* background: cyan; */
+    display: flex;
+    flex-direction: column;
+    height: 62vh;
+}
+.work, .edu {
+    margin: 20px;
+    width: 50vw;
+}
+.skill {
+    width: 25%;
+    height: 400px;
+    position: absolute;
+    right: 185px;
+}
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, 110px);
+    grid-template-rows: repeat(5, 40px);
+}
+.table div{
+    border: 1px solid gray;
+    margin: auto;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+    width: 98px;
+    background-color: beige;
+}
+
+hr {
+    margin: 10px 0px;
+}
+
