@@ -1,0 +1,46 @@
+.formBox {
+    margin: auto;
+    width: 80vw;
+    height: 1000px;
+    overflow: hidden;
+}
+.bgImg {
+    width: 100%;
+    opacity: 0.3;
+    margin-left: 78px;
+    margin-top: 36px;
+}
+.form {
+    position: absolute;
+    top: 122px;
+    left: 247px;
+    display: flex;
+    flex-direction: column;
+}
+#name, #number, #email {
+    margin: 10px 0px;
+    padding: 0px 6px;
+    height: 28px;
+    border-color: orange;
+    border-radius: 5px;
+    width: 700px;
+    font-size: larger;
+}
+#message {
+    font-size: larger;
+    padding: 10px;
+    border-color: orange;
+    border-radius: 5px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+#submitBtn {
+    width: 100px;
+    font-size: large;
+    border-radius: 10px;
+    background-color: white;
+}
+#submitBtn:hover {
+    cursor: pointer;
+    background-color: orange;
+}
